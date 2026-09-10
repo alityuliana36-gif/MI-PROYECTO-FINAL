@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio de Alit Yuliana</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #fff5fa;
+            color: #4a3540;
+            line-height: 1.6;
+        }
+
+        header {
+            background: linear-gradient(135deg, #f7c8dc, #e8b6d0);
+            text-align: center;
+            padding: 60px 20px;
+        }
+
+        header h1 {
+            font-size: 42px;
+            color: #7b3f62;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 19px;
+            color: #5c4050;
+        }
+
+        nav {
+            background-color: #ffffff;
+            text-align: center;
+            padding: 15px;
+            position: sticky;
+            top: 0;
+        }
+
+        nav a {
+            color: #8b4d70;
+            text-decoration: none;
+            margin: 0 12px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #d06b9c;
+        }
+
+        section {
+            max-width: 900px;
+            margin: 35px auto;
+            padding: 35px;
+            background-color: white;
+            border-radius: 18px;
+            box-shadow: 0 4px 15px rgba(150, 90, 120, 0.12);
+        }
+
+        h2 {
+            color: #a14f7b;
+            margin-bottom: 18px;
+            font-size: 28px;
+        }
+
+        ul {
+            padding-left: 25px;
+        }
+
+        li {
+            margin-bottom: 8px;
+        }
+
+        .presentacion {
+            font-size: 17px;
+        }
+
+        .tarjetas {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .tarjeta {
+            flex: 1;
+            min-width: 220px;
+            background-color: #fff0f7;
+            padding: 22px;
+            border-radius: 15px;
+        }
+
+        .tarjeta h3 {
+            color: #9b4774;
+            margin-bottom: 10px;
+        }
+
+        footer {
+            text-align: center;
+            background-color: #e8b6d0;
+            padding: 25px;
+            margin-top: 40px;
+            color: #5c4050;
+        }
+
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 32px;
+            }
+
+            nav a {
+                display: inline-block;
+                margin: 5px;
+            }
+
+            section {
+                margin: 20px 12px;
+                padding: 25px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>🌷 Hola, soy Alit Yuliana Ortiz Portela</h1>
+        <p>Estudiante de Grado 11-05 | Conociendo mis intereses y construyendo mi futuro</p>
+    </header>
+
+    <nav>
+        <a href="#sobre-mi">Sobre mí</a>
+        <a href="#formacion">Formación</a>
+        <a href="#habilidades">Habilidades</a>
+        <a href="#intereses">Intereses</a>
+        <a href="#metas">Mis metas</a>
+        <a href="#contacto">Contacto</a>
+    </nav>
+
+    <section id="sobre-mi">
+        <h2>💕 Sobre mí</h2>
+
+        <p class="presentacion">
+            Soy Alit Yuliana Ortiz Portela, estudiante de grado 11-05 de la
+            Institución Educativa El Chairá José María Córdova.
+            Actualmente estoy culminando una etapa muy importante de mi vida,
+            el colegio, en la que he vivido diferentes experiencias que me han
+            ayudado a crecer, aprender y conocerme un poco más.
+        </p>
+
+        <br>
+
+        <p>
+            Soy de Cartagena del Chairá, Caquetá, lugar donde he crecido junto
+            a mi familia y donde he compartido muchos momentos importantes.
+            Para mí, mi familia ocupa un lugar especial, porque ha estado
+            presente en diferentes etapas de mi vida y ha sido parte de muchos
+            de mis aprendizajes.
+        </p>
+
+        <br>
+
+        <p>
+            Me considero una persona alegre, responsable y con disposición
+            para aprender. Me gusta compartir con las personas que quiero y
+            disfrutar de los pequeños momentos que hacen parte de mi día a día.
+        </p>
+
+        <br>
+
+        <p>
+            También tengo algunos intereses que me gustaría seguir desarrollando
+            con el tiempo. Me llama la atención el mundo del maquillaje y la
+            cosmetología por la creatividad que hay detrás de ellos y porque
+            me gustaría conocer más sobre este campo. Además, disfruto compartir
+            con niños pequeños, acompañarlos y realizar actividades con ellos.
+        </p>
+    </section>
+
+    <section id="formacion">
+        <h2>🎓 Formación académica</h2>
+
+        <ul>
+            <li><strong>Institución:</strong> Institución Educativa El Chairá José María Córdova</li>
+            <li><strong>Grado:</strong> 11-05</li>
+            <li><strong>Año:</strong> 2026</li>
+        </ul>
+    </section>
+
+    <section id="habilidades">
+        <h2>✨ Mis habilidades</h2>
+
+        <div class="tarjetas">
+            <div class="tarjeta">
+                <h3>Responsabilidad</h3>
+                <p>Me esfuerzo por cumplir con mis compromisos y responsabilidades.</p>
+            </div>
+
+            <div class="tarjeta">
+                <h3>Creatividad</h3>
+                <p>Me gusta aprender y encontrar nuevas formas de realizar diferentes actividades.</p>
+            </div>
+
+            <div class="tarjeta">
+                <h3>Trabajo en equipo</h3>
+                <p>Me gusta colaborar con otras personas y aprender de ellas.</p>
+            </div>
+
+            <div class="tarjeta">
+                <h3>Aprendizaje</h3>
+                <p>Tengo disposición para adquirir nuevos conocimientos y experiencias.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="intereses">
+        <h2>🌸 Mis intereses</h2>
+
+        <p>
+            A lo largo de mi vida he descubierto diferentes actividades y temas
+            que llaman mi atención. Entre ellos se encuentran el maquillaje y
+            la cosmetología, áreas que me parecen interesantes por su creatividad
+            y por todo lo que se puede aprender de ellas.
+        </p>
+
+        <br>
+
+        <p>
+            También me gusta compartir con niños pequeños, acompañarlos y
+            realizar actividades con ellos. Es algo que disfruto y que me ha
+            permitido descubrir otro de mis intereses.
+        </p>
+
+        <br>
+
+        <p>
+            Además, me gusta compartir tiempo con mi familia, ya que considero
+            importantes esos momentos en los que podemos estar juntos,
+            conversar y disfrutar.
+        </p>
+    </section>
+
+    <section id="experiencias">
+        <h2>📚 Experiencias y proyectos</h2>
+
+        <p>
+            Durante mi etapa escolar he participado en diferentes actividades
+            y proyectos que me han permitido aprender, trabajar en equipo y
+            asumir responsabilidades.
+        </p>
+
+        <br>
+
+        <p>
+            Cada proyecto y actividad ha sido una oportunidad para adquirir
+            nuevos conocimientos y descubrir habilidades que puedo seguir
+            fortaleciendo.
+        </p>
+    </section>
+
+    <section id="metas">
+        <h2>🎯 Mis metas</h2>
+
+        <p>
+            Mi principal meta en este momento es terminar satisfactoriamente
+            mi bachillerato y cerrar esta etapa con orgullo por todo lo que
+            he aprendido.
+        </p>
+
+        <br>
+
+        <p>
+            Después de graduarme, quiero continuar preparándome, conocer mejor
+            mis intereses y encontrar un camino que me permita desarrollar mis
+            capacidades y hacer algo que realmente me guste.
+        </p>
+
+        <br>
+
+        <p>
+            Quiero seguir aprendiendo, vivir nuevas experiencias y construir
+            poco a poco el futuro que deseo para mí.
+        </p>
+    </section>
+
+    <section id="contacto">
+        <h2>📩 Contacto</h2>
+
+        <p><strong>Teléfono:</strong> 3223174973</p>
+        <p><strong>Correo:</strong> ortizalit1@gmail.com</p>
+    </section>
+
+    <footer>
+        <p>Creado por Alit Yuliana Ortiz Portela — Semana 10 — 2026 🌷</p>
+    </footer>
+
+</body>
+</html>
